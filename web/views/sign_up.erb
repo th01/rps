@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Rock Paper Scissors Sign Up Form</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<section class="container">
+
+    <div class="login">
+      <h1>Sign Up For a New Rock Paper Scissors Account!</h1>
+      <form method="post" action="/sign_up/">
+
+        <p><input type="text" name="username" value="" placeholder="Username"></p>
+        <p><input type="text" name="email" value="" placeholder="Email"></p>
+        <p><input type="password" name="password" value="" placeholder="Create a password"></p>
+        <p><input type="password" name="password_conf" value="" placeholder="Confirm password"></p>
+
+        <p class="remember_me">
+          <label>
+            <input type="checkbox" name="remember_me" id="remember_me">
+            Remember me on this computer
+          </label>
+        </p>
+        <p class="submit"><input type="submit" name="commit" value="Sign Up"></p>
+      </form>
+    </div>
+    <div class="login-help">
+      <p>Return to login page <a href="/">click here</a>.</p>
+    </div>
+
+  </section>
+
+  </body>
+
+</html>
+
